@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav__container{
+  width: 100%;
+  height: 3.3rem;
+  background: #000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav__container #logo{
+    padding: 12px;
+    border: 2px solid #166a8b;
+    border-radius: 50%;
+  
+}
+
+.nav__container a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 14px;
+}
+
+.nav__container a:hover{
+    color: #263fcf;
+    padding: 14px;
+}

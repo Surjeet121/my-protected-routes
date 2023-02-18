@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ---------- Home ------------------------style  */
+.home__container h2 {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.home__container a#resto_btn {
+  background: #375f5f;
+  padding: 10px 12px;
+  margin-top: 4px;
+  color: #fff;
+  text-decoration: none;
+  word-spacing: 4px;
+  letter-spacing: 2px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.home__container a#resto_btn:hover {
+  background: #307563;
+  color: #c0c81c;
+  box-shadow: 0px 0px 9px #375f5f;
+}
+
+/* ---------X----------home ----------X----------  */
+
+/* -------------------Login Style --------------------  */
+.login__container h1 {
+  color: #39af39;
+  margin-top: 1rem;
+  /* margin-bottom: 1rem; */
+}
+/* ---------X----------Login end here  ----------X----------  */
+
+/* ----------- About page ------------ */
+.about-page-wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+.about-page-content {
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  gap: 1rem;
+  background: #dce4e4;
+}
+
+.about-page-content h1,h2{
+  color: #198d74;
+  word-spacing: 4px;
+  letter-spacing: 2px;
+}
+
+
+/* single-product-container */
+.single-product-info{
+  width: 100%;
+  background-color: #dce4e4;
+  margin: 0 auto;
+}
+
+.single-product-info td img{
+  width: 150;
+  height: 100px;
+}

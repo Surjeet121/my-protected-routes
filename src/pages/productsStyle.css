@@ -1,0 +1,67 @@
+button {
+  cursor: pointer;
+  padding: 0.25rem;
+}
+
+.products-container input {
+  padding: 0.35rem;
+  margin: 10px auto;
+  border-radius: 17px;
+  border: 1px solid sandybrown;
+  outline: none;
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+.products-container input:focus {
+  box-shadow: 0px 0px 7px 0px rgb(116, 197, 79);
+  border: 1px solid rgb(116, 197, 79);
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+table thead tr th {
+  border: 1px solid sandybrown;
+  padding: 4px 16px;
+  
+}
+table tbody tr td {
+  border: 1px solid sandybrown;
+  padding: 2px 7px;
+}
+
+.product-info img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 1px solid salmon;
+  padding: 0px;
+  object-fit: cover;
+}
+
+/* .productItem */
+
+.products-container a{
+  text-decoration: none;
+
+}
+.product-info {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: azure;
+  list-style: none;
+}
+.product-info li {
+  width: 40%;
+  /* background: rgb(221, 215, 190); */
+}
+.product-info li img {
+  width: 90px;
+  height: 55px;
+  border-radius: 2%;
+  object-fit: fill;
+}
